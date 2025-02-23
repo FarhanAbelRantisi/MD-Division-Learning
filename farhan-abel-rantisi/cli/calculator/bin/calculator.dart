@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'dart:io';
 import 'dart:math';
 
@@ -46,4 +47,10 @@ void main() {
   }
 
   print("Result: $result");
+=======
+import 'package:calculator/calculator.dart' as calculator;
+
+void main(List<String> arguments) {
+  print('Hello world: ${calculator.calculate()}!');
+>>>>>>> 3a37cad (add cli and app folder)
 }
